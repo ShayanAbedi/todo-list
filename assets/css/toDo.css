@@ -1,0 +1,102 @@
+body{
+    background-image:url("clouds-cold-dark-540518.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.4);;
+    color: azure; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    margin:0;
+    padding: 10px 20px;
+    line-height: 50px;
+}
+
+ul{ 
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: rgba(0, 0, 0, 0.4);
+    color:white;
+    height: 40px;
+    line-height: 40px;
+}
+
+span{
+    text-align: center;
+    margin-right: 20px;
+    height: 40px;
+    color: white;
+    background-color: #e74c3c;
+    width:0;
+    display: inline-block;
+    transition: 0.4s linear;
+    opacity: 0;
+}
+
+input {
+    display: none;
+    background-color: #f7f7f7;
+    font-size: 18px;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    margin-top: 0;
+    box-sizing: border-box;  
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding-left:650px;
+    color: white;
+    font-size: small;
+}
+
+li:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+input:focus {
+    background-color: white;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+li:hover span{
+    width:40px;
+    opacity: 1.0;
+ }
+
+#container {
+    background-color: rgba(0, 0, 0, 0.4);;
+    margin: 50px auto;
+    box-shadow: 10px 0 100px rgba(0, 0, 0, 0.6);
+    width: 360px;
+}
+
+ .displayInput{
+    display:none;
+}
+
+ .doneTodo {
+    color: gray;
+    text-decoration: line-through;
+ }
+
+ .fa-plus-circle:hover {
+    transition: 1.0s ease-in-out;
+    transform: rotate(180deg);
+    font-size:27px;
+ }
+
+
+
+
